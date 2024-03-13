@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageService.API", "CloudStorageService\CloudStorageService.API.csproj", "{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageApplication", "CloudStorageApplication\CloudStorageApplication.csproj", "{18149FAD-305E-443D-AB10-F17D69157A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18149FAD-305E-443D-AB10-F17D69157A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18149FAD-305E-443D-AB10-F17D69157A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18149FAD-305E-443D-AB10-F17D69157A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18149FAD-305E-443D-AB10-F17D69157A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0609E6AF-39AB-4446-A654-C7F3711F57FE}
+	EndGlobalSection
+EndGlobal
