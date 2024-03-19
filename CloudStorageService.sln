@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageService.API", "CloudStorageService\CloudStorageService.API.csproj", "{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudStorageService.API", "CloudStorageService\CloudStorageService.API.csproj", "{56CCEF1F-FEF7-4B67-8FB6-44E128602CDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageApplication", "CloudStorageApplication\CloudStorageApplication.csproj", "{18149FAD-305E-443D-AB10-F17D69157A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudStorageApplication", "CloudStorageApplication\CloudStorageApplication.csproj", "{18149FAD-305E-443D-AB10-F17D69157A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageService.Infrastructure", "Infrastructure\CloudStorageService.Infrastructure.csproj", "{D5A002F8-042A-4ADC-9D6A-E4E2020CEA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStorageService.Domain", "CloudStorageService.Domain\CloudStorageService.Domain.csproj", "{F8824383-A6F3-4C2C-A037-BE927A76A395}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{18149FAD-305E-443D-AB10-F17D69157A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18149FAD-305E-443D-AB10-F17D69157A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18149FAD-305E-443D-AB10-F17D69157A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A002F8-042A-4ADC-9D6A-E4E2020CEA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A002F8-042A-4ADC-9D6A-E4E2020CEA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A002F8-042A-4ADC-9D6A-E4E2020CEA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A002F8-042A-4ADC-9D6A-E4E2020CEA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8824383-A6F3-4C2C-A037-BE927A76A395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8824383-A6F3-4C2C-A037-BE927A76A395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8824383-A6F3-4C2C-A037-BE927A76A395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8824383-A6F3-4C2C-A037-BE927A76A395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
