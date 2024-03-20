@@ -33,8 +33,8 @@ public class UploadProfilePhotoUseCase
         return new User
         {
             Id = 1,
-            Name = "",
-            Email = ""
+            Name = "Adriellison",
+            Email = "adriellisonki@gmail.com"
         };
     }
 }
